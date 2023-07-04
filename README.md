@@ -23,3 +23,25 @@ O protocolo HTTP é a basa usada por trás das APIs REST e as "chamadas" são fe
 - OPTIONS (Opções) - Descrever as opções de comunicação disponíveis para o recurso de destino.
 - TRACE (Rastrear) - Executar um teste de chamada de retorno junto com o caminho para o recurso de destino.
 - PATCH (Modificação parcial) - Aplicar modificações parciais em um recurso existente.
+
+## HTTP response status code
+
+### Informational responses (100 - 199)
+
+### Succesfull responses (200 - 299)
+**200 OK** --> Código de sucesso  
+**201 CREATED** --> Utilizado geralmente como sucesso de um POST  
+**204 NO CONTENT** --> Utilizado geralmente como sucesso de um DELETE  
+
+### Redirection responses (300 - 399)
+
+### Client error responses (400 - 499)
+**400 BAD REQUEST** --> Algo errado da parte do cliente, framing errado de mensagem...  
+**404 NOT FOUND**  
+**409 CONFLICT**
+
+### Server error responses (500 - 599)
+**500 INTERNAL SERVER ERROR**
+
+[Códigos de status com cachorros](https://httpstatusdogs.com/)
+[Códigos de status com gatos](https://http.cat/)
