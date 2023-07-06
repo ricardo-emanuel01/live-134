@@ -12,8 +12,8 @@ Funcionalidade: Saber as tarefas que tenho a realizar
   Cenário: Ver tasks registradas
     Dado que exista uma tarefa
       | nome           | descrição  | estado |
-      | Ligar pra mari | pq amo ela | false  | 
+      | Ligar pra mari | pq sim | false  | 
     Quando verificar minhas tarefas em "/tasks"
     Então devo ter a seguinte tarefa para fazer
       | nome           | descrição  | estado |
-      | Ligar pra mari | pq amo ela | False  |
+      | Ligar pra mari | pq sim | False  |
